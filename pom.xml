@@ -14,6 +14,12 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <properties>
+     <sonar.projectKey>jaswanth-jash_simple-java-maven-app</sonar.projectKey>
+     <sonar.organization>jaswanth-jash</sonar.organization>
+     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+     <sonar.login>47e45433506f259fea3042652232b65db227b7e7</sonar.login>
+     </properties>
   </dependencies>
   <build>
     <plugins>
@@ -35,3 +41,4 @@
     </plugins>
   </build>
 </project>
+
